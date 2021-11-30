@@ -1,0 +1,100 @@
+table {
+	width: 100%;
+	background: #fff;
+	border-radius: 4px;
+	border: solid 1px #e1e1e1;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 14px;
+	color: #2a2d3b;
+	margin: 16px 0;
+	thead {
+		tr {
+			border: solid 1px #e1e1e1;
+			th {
+				text-align: left;
+				padding: 16px 0 8px 0;
+				font-weight: normal;
+				color: #9198af;
+				font-size: 13px;
+			}
+		}
+	}
+	tr {
+		border: solid 1px #e1e1e1;
+		td {
+			padding: 12px 0;
+			&:nth-child(1) {
+				width: 24px;
+				padding: 0 12px;
+			}
+			&:nth-child(2) {
+				text-transform: capitalize;
+			}
+		}
+		&:nth-child(8n + 1) {
+			.avatar {
+				background: #fa8d68;
+			}
+		}
+		&:nth-child(8n + 2) {
+			.avatar {
+				background: #90d26c;
+			}
+		}
+		&:nth-child(8n + 3) {
+			.avatar {
+				background: #68a0fa;
+			}
+		}
+		&:nth-child(8n + 4) {
+			.avatar {
+				background: #fab668;
+			}
+		}
+		&:nth-child(8n + 5) {
+			.avatar {
+				background: #8368fa;
+			}
+		}
+		&:nth-child(8n + 6) {
+			.avatar {
+				background: #fa68b5;
+			}
+		}
+		&:nth-child(8n + 7) {
+			.avatar {
+				background: #5fe2c4;
+			}
+		}
+		&:nth-child(8n + 8) {
+			.avatar {
+				background: #f55a5a;
+			}
+		}
+		&:hover {
+			background: #fff3f2;
+		}
+	}
+	.avatarCell {
+		padding: 0 8px;
+		.avatar {
+			background: red;
+			width: 24px;
+			height: 24px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 50%;
+			text-transform: uppercase;
+			color: #fff;
+		}
+	}
+	.iconsCell {
+		text-align: right;
+		img {
+			margin: 0 12px;
+			cursor: pointer;
+		}
+	}
+}

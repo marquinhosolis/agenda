@@ -1,0 +1,43 @@
+.modalMask {
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modalContent {
+	background: #fff;
+	border-radius: 16px;
+	width: 100%;
+	max-width: 450px;
+}
+
+.modalHeader {
+	padding: 16px;
+	border-bottom: solid 1px #c0c3d2;
+	font-size: 16px;
+}
+
+.modalBody {
+	padding: 16px;
+	padding-bottom: 24px;
+	input {
+		width: 100%;
+	}
+	input[type='tel'] {
+		@media (min-width: 768px) {
+			width: 50%;
+		}
+	}
+}
+
+.modalFooter {
+	text-align: right;
+	border-top: solid 1px #c0c3d2;
+	padding: 16px;
+}

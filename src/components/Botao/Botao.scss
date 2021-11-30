@@ -1,0 +1,29 @@
+.botao {
+	background: #dbff90;
+	border: none;
+	border-radius: 20px;
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.16),
+		0 0 0 0.5px rgba(0, 0, 0, 0.08), inset 0 0 0 0.5px rgba(0, 0, 0, 0.08),
+		0 2px 4px 0.5px rgba(0, 0, 0, 0.16);
+	color: #fa7268;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	padding: 8px 16px;
+	text-decoration: none;
+	img {
+		margin-right: 8px;
+		vertical-align: text-bottom;
+	}
+}
+
+.botao-laranja {
+	background: #fa7268;
+	color: #fff;
+}
+
+.botao-cancelar {
+	background: none;
+	box-shadow: none;
+	text-transform: uppercase;
+}
